@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExamenP1_DRueda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a1e06e131a2a121691abe01337052d461b0830f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1896eefbbea42f99ac135eb977e2a68fc7a0f51")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExamenP1_DRueda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExamenP1_DRueda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

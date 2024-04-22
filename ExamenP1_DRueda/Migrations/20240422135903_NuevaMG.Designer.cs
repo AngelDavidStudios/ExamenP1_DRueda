@@ -3,6 +3,7 @@ using System;
 using ExamenP1_DRueda.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ExamenP1_DRueda.Migrations
 {
     [DbContext(typeof(ExamenP1_DRuedaContext))]
-    partial class ExamenP1_DRuedaContextModelSnapshot : ModelSnapshot
+    [Migration("20240422135903_NuevaMG")]
+    partial class NuevaMG
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
