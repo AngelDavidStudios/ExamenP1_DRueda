@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using ExamenP1_DRueda.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<ExamenP1_DRuedaContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("ExamenP1_DRuedaContext") ?? throw new InvalidOperationException("Connection string 'ExamenP1_DRuedaContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
